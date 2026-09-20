@@ -1,0 +1,17 @@
+bracketpaircolordlw.bracket-pair-color-dlw
+bradlc.vscode-tailwindcss
+dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
+eamodio.gitlens
+ecmel.vscode-html-css
+editorconfig.editorconfig
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+humao.rest-client
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+pkief.material-icon-theme
+streetsidesoftware.code-spell-checker
+usernamehw.errorlens
