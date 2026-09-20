@@ -19,3 +19,15 @@ font-family = JetBrainsMono Nerd Font
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 quick-terminal-position = top
 quick-terminal-animation-duration = 0.1
+
+keybind = cmd+right=new_split:right
+keybind = cmd+left=new_split:left
+keybind = cmd+down=new_split:down
+keybind = cmd+up=new_split:up
+
+# Splits
+keybind = cmd+right=new_split:right
+keybind = cmd+left=new_split:left
+keybind = cmd+down=new_split:down
+keybind = cmd+up=new_split:up
+confirm-close-surface = false
