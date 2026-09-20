@@ -1,0 +1,13 @@
+[manager]
+cwd = { fg = "#8ed6e0" }
+hovered = { fg = "#1f2430", bg = "#8ed6e0" }
+preview_hovered = { underline = true }
+find_keyword = { fg = "#ffd580", bold = true }
+marker_selected = { fg = "#bae67e", bg = "#bae67e" }
+tab_active = { fg = "#1f2430", bg = "#8ed6e0" }
+tab_inactive = { fg = "#cbccc6", bg = "#2b3a4a" }
+border_style = { fg = "#3d4752" }
+
+[status]
+separator_open = ""
+separator_close = ""

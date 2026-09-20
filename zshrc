@@ -105,4 +105,13 @@ export BAT_THEME="ansi"
 
 export EZA_COLORS="di=1;36:ln=1;35:ex=1;32:*.md=33:*.json=33:*.toml=33:*.yml=33"
 export LS_COLORS="di=1;36:ln=1;35:ex=1;32"
+
+# --- yazi ---
+function y() {
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+  yazi "$@" --cwd-file="$tmp"
+  IFS= read -r -d '' cwd < "$tmp"
+  [ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+  rm -f -- "$tmp"
+}
 eval "$(starship init zsh)"
