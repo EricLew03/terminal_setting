@@ -115,3 +115,10 @@ function y() {
   rm -f -- "$tmp"
 }
 eval "$(starship init zsh)"
+
+export EDITOR="nvim"
+export VISUAL="nvim"
+alias vim="nvim"
+alias vi="nvim"
+export EDITOR="vim"
+export VISUAL="vim"
