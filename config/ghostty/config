@@ -1,0 +1,17 @@
+# Appearance
+theme = Ayu Mirage
+font-size = 14
+window-padding-x = 12
+window-padding-y = 12
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+
+# Behavior
+macos-option-as-alt = true
+confirm-close-surface = false
+window-save-state = always
+copy-on-select = clipboard
+scrollback-limit = 10000
+font-family = JetBrainsMono Nerd Font

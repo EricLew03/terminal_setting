@@ -1,0 +1,50 @@
+add_newline = true
+
+format = """
+[╭─](dimmed white)$directory$git_branch$git_status$fill$cmd_duration$time[─╮](dimmed white)
+[╰─](dimmed white)$character"""
+
+[fill]
+symbol = "─"
+style = "dimmed white"
+
+[directory]
+format = "[](fg:#24373a)[ $path ](bg:#24373a fg:#8ed6e0 bold)[](fg:#24373a) "
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+format = "[](fg:#353048)[ $symbol$branch ](bg:#353048 fg:#c3aaff bold)[](fg:#353048) "
+
+[git_status]
+format = "[](fg:#3d3728)[ $all_status$ahead_behind](bg:#3d3728 fg:#ffd580 bold)[](fg:#3d3728) "
+conflicted = "conflict ${count} "
+untracked = "new ${count} "
+modified = "mod ${count} "
+staged = "staged ${count} "
+renamed = "moved ${count} "
+deleted = "gone ${count} "
+stashed = "stash "
+ahead = "push ${count} "
+behind = "pull ${count} "
+diverged = "diverged "
+
+[cmd_duration]
+min_time = 500
+format = "[](fg:#2f3a2c)[ 󱑍 $duration ](bg:#2f3a2c fg:#bae67e bold)[](fg:#2f3a2c) "
+
+[time]
+disabled = false
+format = "[](fg:#2a2f3a)[ $time ](bg:#2a2f3a fg:#8a93a5)[](fg:#2a2f3a)"
+time_format = "%H:%M:%S"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[python]
+disabled = true
+
+[conda]
+disabled = true
