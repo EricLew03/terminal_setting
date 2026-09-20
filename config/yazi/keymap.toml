@@ -1,0 +1,7 @@
+# ~/.config/yazi/keymap.toml
+
+[mgr]
+prepend_keymap = [
+    { on = "o", run = 'shell --orphan -- code -n %s', desc = "Open in VS Code (new window)" },
+    { on = "O", run = "open", desc = "Open with default app" },
+]
