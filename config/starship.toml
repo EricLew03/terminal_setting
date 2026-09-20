@@ -26,7 +26,7 @@ staged = "staged ${count} "
 renamed = "moved ${count} "
 deleted = "gone ${count} "
 stashed = "stash "
-ahead = "push ${count} "
+ahead = "commit ${count} "
 behind = "pull ${count} "
 diverged = "diverged "
 
